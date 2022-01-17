@@ -28,19 +28,6 @@
                 "isDefault": true
             },
             "problemMatcher": []
-        },
-        {
-            "label": "copy NuttX UF2 image",
-            "type": "shell",
-            "options": {
-                "cwd": "${workspaceFolder}/nuttx"
-            },
-            "command": "cp -v nuttx.uf2 /Volumes/RPI-RP2/",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
         }
     ]
 }
